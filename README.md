@@ -4,7 +4,11 @@ Forked from [busser-serverspec@0.5.10](https://github.com/test-kitchen/busser-se
 
 # <a name="title"></a> Busser::RunnerPlugin::Serverspec
 
-A Busser runner plugin for Serverspec for EOL Ruby versions 2.3 and ChefDK 3.0
+A Busser runner plugin for Serverspec for EOL Ruby versions 2.3 and ChefDK 3.0 due to the following breaking change:
+
+> ## Breaking changes:
+>
+>  - Drop support for Ruby 2.3, 2.4, 2.5 and RubyGems 2.5, 2.6, 2.7 [#6107](https://github.com/rubygems/rubygems/pull/6107)
 
 ## <a name="installation"></a> Installation and Setup
 
