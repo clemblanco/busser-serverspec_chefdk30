@@ -5,4 +5,4 @@ Feature: Plugin list command
 
   Scenario: Plugin appears in plugin list command
     When I successfully run `busser plugin list`
-    Then the output should match /^serverspec\b/
+    Then the output should match /^serverspec_chefdk30\b/
