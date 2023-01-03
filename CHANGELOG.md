@@ -1,5 +1,9 @@
 # You should use Kitchen::Verifier::Shell + Serverspec
 
+## 0.5.11 2023-01-04
+
+* Install bundler 1.16.1 for Ruby version 2.3 and ChefDK 3.0
+
 ## 0.5.10 2016-08-12
 
 * use container-based test at travis-ci.
