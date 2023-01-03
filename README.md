@@ -1,6 +1,6 @@
 # THIS IS A FORK
 
-Forked from [busser-serverspec@0.5.10][https://github.com/test-kitchen/busser-serverspec]
+Forked from [busser-serverspec@0.5.10](https://github.com/test-kitchen/busser-serverspec)
 
 # <a name="title"></a> Busser::RunnerPlugin::Serverspec
 
