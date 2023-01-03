@@ -1,12 +1,10 @@
+# THIS IS A FORK
+
+Forked from [busser-serverspec@0.5.10][https://github.com/test-kitchen/busser-serverspec]
+
 # <a name="title"></a> Busser::RunnerPlugin::Serverspec
 
-[![Gem Version](https://badge.fury.io/rb/busser-serverspec.svg)](http://rubygems.org/gems/busser-serverspec) [![Build Status](https://secure.travis-ci.org/test-kitchen/busser-serverspec.svg?branch=master)](https://travis-ci.org/test-kitchen/busser-serverspec) [![Code Climate](https://codeclimate.com/github/cl-lab-k/busser-serverspec.svg)](https://codeclimate.com/github/cl-lab-k/busser-serverspec)
-
-A Busser runner plugin for Serverspec
-
-## Status
-
-This software project is no longer under active development as it has no active maintainers. The software may continue to work for some or all use cases, but issues filed in GitHub will most likely not be triaged. If a new maintainer is interested in working on this project please come chat with us in #test-kitchen on Chef Community Slack.
+A Busser runner plugin for Serverspec for EOL Ruby versions 2.3 and ChefDK 3.0
 
 ## <a name="installation"></a> Installation and Setup
 
