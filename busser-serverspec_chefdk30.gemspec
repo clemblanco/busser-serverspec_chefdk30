@@ -4,13 +4,13 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'busser/serverspec/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'busser-serverspec'
+  spec.name          = 'busser-serverspec_chefdk30'
   spec.version       = Busser::Serverspec::VERSION
   spec.authors       = ['HIGUCHI Daisuke']
   spec.email         = ['d-higuchi@creationline.com']
-  spec.description   = %q{A Busser runner plugin for Serverspec}
+  spec.description   = %q{A fork for busser-serverspec for supporting EOL Ruby versions 2.3 and ChefDK 3.0}
   spec.summary       = spec.description
-  spec.homepage      = 'https://github.com/test-kitchen/busser-serverspec'
+  spec.homepage      = 'https://github.com/clemblanco/busser-serverspec_chefdk30'
   spec.license       = 'Apache 2.0'
 
   spec.files         = `git ls-files`.split($/)
@@ -23,6 +23,8 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'rake'
   spec.add_dependency 'rspec-core'
 
+  spec.add_development_dependency 'bundler', '~> 1.16.1'
+  
   spec.add_development_dependency 'serverspec'
 
   spec.add_development_dependency 'aruba', '0.6.1'
