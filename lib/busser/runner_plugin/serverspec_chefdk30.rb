@@ -23,7 +23,7 @@ require 'rubygems/dependency_installer'
 #
 # @author HIGUCHI Daisuke <d-higuchi@creationline.com>
 #
-class Busser::RunnerPlugin::Serverspec < Busser::RunnerPlugin::Base
+class Busser::RunnerPlugin::ServerspecChefdk30 < Busser::RunnerPlugin::Base
   postinstall do
     install_gem('bundler', '~> 1.16.1')
   end
@@ -33,7 +33,7 @@ class Busser::RunnerPlugin::Serverspec < Busser::RunnerPlugin::Base
     install_serverspec
 
     runner = File.join(File.dirname(__FILE__), %w{.. serverspec runner.rb})
-    run_ruby_script!("#{runner} #{suite_path('serverspec').to_s}")
+    run_ruby_script!("#{runner} #{suite_path('serverspec_chefdk30').to_s}")
   end
 
   private
