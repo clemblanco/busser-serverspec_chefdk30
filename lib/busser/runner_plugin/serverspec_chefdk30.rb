@@ -32,7 +32,7 @@ class Busser::RunnerPlugin::ServerspecChefdk30 < Busser::RunnerPlugin::Base
     run_bundle_install
     install_serverspec
 
-    runner = File.join(File.dirname(__FILE__), %w{.. serverspec_chefdk30 runner.rb})
+    runner = File.join(File.dirname(__FILE__), %w{.. serverspec runner.rb})
     run_ruby_script!("#{runner} #{suite_path('serverspec_chefdk30').to_s}")
   end
 
