@@ -12,11 +12,17 @@ A Busser runner plugin for Serverspec for EOL Ruby versions 2.3 and ChefDK 3.0 d
 
 ## <a name="installation"></a> Installation and Setup
 
-Please read the Busser [plugin usage][plugin_usage] page for more details.
+You can manually install it using `busser` CLI
+
+```
+busser plugin install serverspec_chefdk30
+```
+
+If you are using this part of a [test-kitchen](https://github.com/test-kitchen/test-kitchen) test suite, there is no need to install anything, naming your folders properly will be enough for `busser` to automatically install it.
 
 ## <a name="usage"></a> Usage
 
-Please put test files into [COOKBOOK]/test/integration/[SUITES]/serverspec_chefdk30/
+Please put test files into `[COOKBOOK]/test/integration/[SUITES]/serverspec_chefdk30/...`
 
 ```cookbook
 `-- test
