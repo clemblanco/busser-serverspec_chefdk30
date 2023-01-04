@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.description   = %q{A fork for busser-serverspec for supporting EOL Ruby versions 2.3 and ChefDK 3.0}
   spec.summary       = spec.description
   spec.homepage      = 'https://github.com/clemblanco/busser-serverspec_chefdk30'
-  spec.license       = 'Apache 2.0'
+  spec.license       = 'Apache-2.0'
 
   spec.files         = `git ls-files`.split($/)
   spec.executables   = []
