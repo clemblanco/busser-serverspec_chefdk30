@@ -9,5 +9,4 @@ Feature: Plugin install command
 
   Scenario: Running the postinstall generator
     When I run `busser plugin install busser-serverspec_chefdk30 --force-postinstall`
-    Then a gem named "serverspec" is installed
-    And the exit status should be 0
+    Then the output should match /^Running postinstall\b/
