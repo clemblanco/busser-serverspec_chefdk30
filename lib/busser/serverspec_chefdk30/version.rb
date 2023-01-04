@@ -21,6 +21,6 @@ module Busser
   module ServerspecChefdk30
 
     # Version string for the Serverspec Busser runner plugin
-    VERSION = '0.5.13'
+    VERSION = '0.5.14'
   end
 end
