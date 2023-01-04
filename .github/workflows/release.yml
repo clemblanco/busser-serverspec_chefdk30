@@ -13,9 +13,10 @@ jobs:
       with:
         ruby-version: '2.3'
         bundler-cache: true
-    - run: mkdir ~/.gem
-    - run: echo '---' > ~/.gem/credentials
-    - run: |
-      echo ":rubygems_api_key: ${{ secrets.RUBYGEMS_API_KEY }}" >> ~/.gem/credentials
+    - uses: fac/ruby-gem-setup-credentials-action@v2
+      with:
+        user: ""
+        key: rubygems
+        token: ${{ secrets.RUBYGEMS_API_KEY }}
     - run: gem build busser-serverspec_chefdk30 --output=latest-release.gem
-    - run: gem push latest-release.gem
+    - run: gem push --key=rubygems latest-release.gem
