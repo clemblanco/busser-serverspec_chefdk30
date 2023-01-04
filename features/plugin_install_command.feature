@@ -9,4 +9,8 @@ Feature: Plugin install command
 
   Scenario: Running the postinstall generator
     When I run `busser plugin install busser-serverspec_chefdk30 --force-postinstall`
-    Then the output should match /^Running postinstall\b/
+    Then the output should contain:
+    """
+           Plugin serverspec_chefdk30 already installed
+    -----> Running postinstall for serverspec_chefdk30 plugin
+    """
