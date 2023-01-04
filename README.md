@@ -4,7 +4,7 @@ Forked from [busser-serverspec@0.5.10](https://github.com/test-kitchen/busser-se
 
 # <a name="title"></a> Busser::RunnerPlugin::ServerspecChefdk30
 
-A Busser runner plugin for Serverspec for EOL Ruby versions 2.3 and ChefDK 3.0 due to the following breaking change:
+A Busser runner plugin for Serverspec for EOL Ruby versions 2.3 and ChefDK 3.0 due to the following breaking change from the `bundler` gem:
 
 > ## Breaking changes:
 >
