@@ -22,8 +22,6 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'busser'
   spec.add_dependency 'rake'
   spec.add_dependency 'rspec-core'
-
-  spec.add_development_dependency 'bundler', '~> 1.16.1'
   
   spec.add_development_dependency 'serverspec'
 
