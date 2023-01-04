@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'busser/serverspec_chefdk30/version'
+require 'busser/serverspec/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'busser-serverspec_chefdk30'
-  spec.version       = Busser::ServerspecChefdk30::VERSION
+  spec.version       = Busser::Serverspec::VERSION
   spec.authors       = ['HIGUCHI Daisuke']
   spec.email         = ['d-higuchi@creationline.com']
   spec.description   = %q{A fork for busser-serverspec for supporting EOL Ruby versions 2.3 and ChefDK 3.0}
